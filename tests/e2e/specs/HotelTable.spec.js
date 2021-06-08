@@ -24,6 +24,6 @@ describe("Test Hotels Table", () => {
   it("Test if click on row get selected", () => {
     cy.get("table > :nth-child(2)")
       .click()
-      .should("have.css", "background", "rgb(136, 70, 70)");
+      .should("have.css", "background-color", "rgb(185, 220, 208)");
   });
 });
