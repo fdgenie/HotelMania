@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+//Header styles
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+//Table styles
+.tableContainer {
+  position: relative;
+  top: 120px;
+  border: solid black 1px;
+  border-radius: 2px;
+
+  @media screen and (min-width: 992px) {
+    margin: auto;
+  }
+}
+
+.tableContainerHeader {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: $primary;
+}
+
+.tableTitle {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  text-align: left;
+  border-top: solid black 1px;
+  padding: 8px 0;
+}
+
+th:first-child,
+td:first-child {
+  padding: 8px 0 8px 8px;
+}
+
+th:last-child,
+td:last-child {
+  padding: 8px 8px 8px 0;
+}
+
+th {
+  background: #f4f4f4;
+}
+
+//Loading styles
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+//Button styles
+.btns {
+  border: 0;
+  background: none;
+  letter-spacing: 1.5px;
+  font-size: 1em;
+  padding-bottom: 5px;
+}
+
+.btns:hover {
+  cursor: pointer;
+}

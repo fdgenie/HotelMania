@@ -10,5 +10,24 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+
+    //ESLINT RULES
+    "prefer-promise-reject-errors": "off",
+
+    //VUE ESLINT RULES
+    "vue/html-closing-bracket-spacing": [
+      "error",
+      {
+        selfClosingTag: "always",
+      },
+    ],
+
+    //PRETIER RULES
+    "prettier/prettier": [
+      "error",
+      {
+        endOfLine: "auto",
+      },
+    ],
   },
 };
