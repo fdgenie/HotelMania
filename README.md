@@ -8,9 +8,9 @@ The purpose of the project is for learning purposes and to excercise html and sc
 
 # Images
 ![home_page](https://github.com/fdgenie/HotelMania/blob/main/public/images/HomePage-desktop.png)
-![home_page_mobile](https://github.com/fdgenie/HotelMania/blob/main/public/images/HomePage-mobile.png)
 ![statistics_page](https://github.com/fdgenie/HotelMania/blob/main/public/images/StatisticsPage-desktop.png)
-![statistics_page_mobile](https://github.com/fdgenie/HotelMania/blob/main/public/images/StatisticsPage-mobile.png)
+![home_page_mobile](https://github.com/fdgenie/HotelMania/blob/main/public/images/HomePage-mobile.png) ![statistics_page_mobile](https://github.com/fdgenie/HotelMania/blob/main/public/images/StatisticsPage-mobile.png)
+
 
 ## Project setup
 
